@@ -8,7 +8,7 @@ import { DesignService } from './design.service';
 })
 export class AppComponent {
   title = 'behaviour-subject';
-  userName:string="Pratibha jain"
+  userName:any="Pratibha jain"
   constructor( private ddataServ:DesignService){
    
     this.ddataServ.getUser().subscribe(res=>{

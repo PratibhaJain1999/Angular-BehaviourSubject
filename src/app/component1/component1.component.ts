@@ -7,7 +7,7 @@ import { DesignService } from '../design.service';
   styleUrls: ['./component1.component.css']
 })
 export class Component1Component {
-  userName:string="Pratibha jain";
+  userName:any="Pratibha jain";
  
   constructor( private ddataServ:DesignService){
     // this.ddataServ.userNamee.subscribe(res=>{
